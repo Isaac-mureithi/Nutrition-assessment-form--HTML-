@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale="1.0">
+  <title>Nutrition Assessment Form</title>
+  <style>
+    body {
+  background-color: #0A0A23;
+  color:white;
+}
+  </style>
+</head>
+<body>
+  <h1 id="title">24h Diet Recall</h1>
+  <p id="description">A reminder that health is wealth</p>
+
+  <form id="survey-form">
+    <label id="name-label"> Name 
+      <input placeholder="Enter your name" id="name" type="text" required/>
+    </label>
+    <label id="email-label"> Email
+      <input placeholder="Enter your email" id="email" type="email" required/>
+    </label>
+    <label id="number-label"> Number 
+      <input placeholder="Age" id="number" type="number" min="0" max="10" required/>
+    </label>
+
+    <select id="dropdown">
+      <option>OPtion 1</option>
+      <option>OPtion 2</option>
+    </select>
+
+    <select>
+      <input value="yes" type="radio" name="food-allergy"/>
+      <input value="no" type="radio" name="food-allergy"/>
+    </select>
+
+    <select>
+      <input value="checkbox1" type="checkbox" name="food-allergy"/>
+      <input value="checkbox2" type="checkbox" name="food-allergy"/>
+      <input value="checkbox1" type="checkbox" name="food-allergy"/>
+      <input value="checkbox2" type="checkbox" name="food-allergy"/>
+    </select>
+
+    <textarea type="textarea"></textarea>
+
+    <button id="submit">Submit</button>
+  </form> 
+</body>
